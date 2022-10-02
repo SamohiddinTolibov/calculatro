@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f9de779123.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <img src="./—Pngtree—black mobile phone design png_5890355.png" alt="" class="phone">
+    <div class="calculator">
+        <form name="kalkulator">
+            <table>
+                <tr>
+                    <td colspan="4">
+                         <input type="text" name="display" class="typer" id="display"  placeholder="0">
+                    </td>
+                </tr>
+                
+                <tr><td colspan="4"><img src="./Frame.png" alt=""></td></tr>
+
+            </table>
+
+            <table class="box-num">
+
+        
+                <div class="number">
+                    <tr class="color">
+                    
+                        <td><input type="button" name="seven" value="7" onclick="kalkulator.display.value +='7'"></td>
+                        <td><input type="button" name="eight" value="8" onclick="kalkulator.display.value +='8'"></td>
+                        <td><input type="button" name="nine" value="9" onclick="kalkulator.display.value +='9'"></td>
+                        <td><input type="button" name="times" class="operator" value="x" onclick="kalkulator.display.value +='*'"></td>
+                    </tr>
+        
+                    <tr class="color">
+                        <td><input type="button" name="four" value="4" onclick="kalkulator.display.value +='4'"></td>
+                        <td><input type="button" name="five" value="5" onclick="kalkulator.display.value +='5'"></td>
+                        <td><input type="button" name="six" value="6" onclick="kalkulator.display.value +='6'"></td>
+                        <td><input type="button" name="minus" class="operator" value="-" onclick="kalkulator.display.value +='-'"></td>
+                    </tr>
+        
+                    <tr class="color">
+                        <td><input type="button" name="one" value="1" onclick="kalkulator.display.value +='1'"></td>
+                        <td><input type="button" name="two" value="2" onclick="kalkulator.display.value +='2'"></td>
+                        <td><input type="button" name="three" value="3" onclick="kalkulator.display.value +='3'"></td>
+                        <td><input type="button" name="plus" class="operator" value="+" onclick="kalkulator.display.value +='+'"></td>
+                    </tr>
+        
+                    <tr class="color">
+                        <td><input type="button" name="kavichik" value="(" onclick="kalkulator.display.value +='('"></td>
+                        <td><input type="button" name="kavichik" value=")" onclick="kalkulator.display.value +=')'"></td>
+                        <td><input type="button" name="zero" value="0" onclick="kalkulator.display.value +='0'"></td>
+                        <td><input type="button" name="div" class="operator" value="/" onclick="kalkulator.display.value +='/'"></td>
+                    </tr>
+        
+                    <tr class="color">
+                        <td class="c"><input type="button" name="clear" value="C" onclick="kalkulator.display.value =''"></td>
+                
+                        <td class="colspan" colspan="3"> <input class="colspan" type="button" name="equal" value="=" onclick="kalkulator.display.value = eval(kalkulator.display.value)"></td>
+                       
+                    </tr>
+                </div>
+
+              
+            </table>
+        </form>
+    </div>
+  
+</body>
+</html>
